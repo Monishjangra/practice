@@ -12,4 +12,9 @@ public class Test2 {
     public String test() {
         return "Hello Docker";
     }
+
+@GetMapping("/bye")
+    public String test() {
+        return "Bye Docker";
+    }
 }
