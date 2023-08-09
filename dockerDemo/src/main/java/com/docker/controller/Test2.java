@@ -13,7 +13,11 @@ public class Test2 {
         return "Hello Docker";
     }
 
+<<<<<<< HEAD
     @GetMapping("/bye")
+=======
+@GetMapping("/bye")
+>>>>>>> 269a3438b4998ae06bf996b3a4a7899d74da941e
     public String test1() {
         return "Bye Docker";
     }
