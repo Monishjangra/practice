@@ -13,8 +13,8 @@ public class Test2 {
         return "Hello Docker";
     }
 
-@GetMapping("/bye")
-    public String test() {
+    @GetMapping("/bye")
+    public String test1() {
         return "Bye Docker";
     }
 }
