@@ -14,7 +14,7 @@ public class Test2 {
     }
 
 @GetMapping("/bye")
-    public String test() {
+    public String test1() {
         return "Bye Docker";
     }
 }
